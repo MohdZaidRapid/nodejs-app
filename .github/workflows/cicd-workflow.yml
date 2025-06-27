@@ -27,6 +27,7 @@ jobs:
       - name: Pull image from Docker Hub
         run: docker pull mohdzaid1999/nodejs-app:latest
 
+
       - name: Delete existing container
         run: docker rm -f nodejs-app-container || true
 
